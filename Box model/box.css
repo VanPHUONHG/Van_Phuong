@@ -1,0 +1,11 @@
+.box {
+    border: 1px solid red;
+    border-radius: 11px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px-5px 10px red;
+    background: aqua;
+    background-color: brown;
+    background-image: url('./hinh-nen-one-piece-54.jpg');
+
+}

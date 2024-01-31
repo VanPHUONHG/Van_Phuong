@@ -4,81 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab3-HTML</title>
-    <link href="./style.css" rel="stylesheet" />
-    <link href="https://fonts.google.com/share?selection.family=Montserrat:ital,
-    wght@0,100..900;1,100..900" rel="stylesheet">
+    <title>Lab3 - Form HTML</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="form-wrapper">
-        <h1>get in <span class="touch">touch</span></h1><br>
-        <p>
-            Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
-        </p>
-        <br>
-        <form class="form-content">
-            <input class="name" type="text" placeholder="Contact name" />
-            <input class="street" type="text" placeholder="Street" />
-            <div class="city">
-                <input class="ci" type="text" placeholder="city" />
-                <input class="post" type="number" placeholder="Postcode" />
-            </div>
-            <input class="dt" type="number" placeholder="Contact Phone" />
-            <input class="mail" type="email" placeholder="E-mail" />
-            <input class="let" type="text" placeholder="Let's talk about your idea" />
-            <!--  Upload file -->
-            <label class="input-file " for="upload ">
-                <div>
-                    <img class="anh" src="./images/z5108873655775_c722f8edbca4c71574ef597221b37e2e.jpg" />
-                    <span> Upload Additional file </span>
-                </div>
-                <input type="file" id="upload" hidden />
-            </label>
-            <p class="att">Attach file. File size of your documents
-                should not exceed 10MB
+        <div class="form-contact">
+            <h1 class="tag">Get in <span class="touch">touch</span></h1>
+            <br><br>
+            <p>
+                Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
+                molestie vel, ornare non id blandit netus.
             </p>
-            <div>
-                <input type="checkbox" id="confirm" />
-                <label class="want" for="confirm">
-                    I want to protect my data by signing an NDA
+            <br>
+            <form class="form-content">
+                <input class="input-form" type="text" placeholder="&nbsp Contact name">
+                <input class="input-form" type="text" placeholder="&nbsp Street">
+                <div class="city">
+                    <input class="input-form" type="text" placeholder="&nbsp City">
+                    <input class="input-form" type="number" placeholder="&nbsp Postcode">
+                </div>
+                <input class="input-form" type="number" placeholder="&nbsp Contact Phone">
+                <input class="input-form" type="email" placeholder="&nbsp Email">
+                <input class="input-form" type="text" placeholder="&nbsp Let's talk about your idea">
+                <label class="input-file" for="upload">
+                    <div>
+                        <img src="./images/z5108873655775_c722f8edbca4c71574ef597221b37e2e.jpg" width="24px"
+                            height="24px" alt="">
+                        <span>&nbsp Upload Additional file</span>
+                    </div>
+                    <input type="file" id="upload" hidden>
                 </label>
-            </div>
-            <button type="submit" class="btn">Submit</button>
 
-            <div class="tong">
-                <div class="icon-item">
-                    <img src="./images/Frame 831.svg" alt="">
-                    <div class="icon-text">
-                        <span>Phone</span>
-                        <span class="do">0789182477</span>
+                <p>Attach file. File size of your documents should not exceed 10MB</p>
+                <div>
+                    <input type="checkbox" id="confirm">
+                    <label for="confirm">I want to protect my data by signing an NDA</label>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+
+                <div class="icon-wrapper">
+                    <div class="icon-item">
+                        <img src="./images/Frame 831.svg" alt="">
+                        <div class="icon-text">
+                            <span>Phone</span>
+                            <span><a a class="mau" href="#">0987654321</a></span>
+                        </div>
+                    </div>
+                    <div class="icon-item">
+                        <img src="./images/Frame 833 (1).svg" alt="">
+                        <div class="icon-text">
+                            <span>E-Mail</span>
+                            <span><a class="mau" href="#">phuongcoca@gmail.com</a></span>
+                        </div>
+                    </div>
+                    <div class="icon-item">
+                        <img src="./images/Frame 833 (1).svg" alt="">
+                        <div class="icon-text">
+                            <span>HELPDESK</span>
+                            <span><a class="mau" href="#">https://phuongvertu.com</a></span>
+                        </div>
                     </div>
                 </div>
-                <div class="lien">
-                    <img src="./images/Frame 833 (1).svg" alt="">
-                    <div class="van">
-                        <span>E-MAIL</span>
-                        <span class="do">phuongnv@gmail.com</span>
-                    </div>
-                </div>
-                <div class="thanh">
-                    <img src="./images/Frame 833 (1).svg" alt="">
-                    <div class="vu">
-                        <span>HELPDESK</span>
-                        <span class="do">https://helpdesk.com</span>
-                    </div>
-                </div>
-            </div>
-    </div>
-    <div class="google-map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.833967141964!2d105.
-            74042612495147!3d21.039328387416155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
-            1!3m3!1m2!1s0x313455e940879933%3A0xcf10b34e9f1a03df!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1706272672697!5m2!1svi!2s"
-            width="638" height="819" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
+            </form>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14895.454672857642!2d105.7472546!3d21.0381403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455e940879933%3A0xcf10b34e9f1a03df!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1706272582375!5m2!1svi!2s"
+                width="638" height="819" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="layer"></div>
     </div>
 </body>
 
